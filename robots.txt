@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://naveencm3852.github.io/ktu-calculator/sitemap.xml

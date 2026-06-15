@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#070b17">
+  <meta name="description" content="Calculate KTU SGPA, CGPA, percentage, and the SGPA needed to reach your target CGPA. Fast, private, and free.">
+  <meta name="keywords" content="KTU CGPA calculator, KTU SGPA calculator, APJ Abdul Kalam Technological University, KTU percentage calculator">
+  <meta name="author" content="KTU Calc">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="KTU CGPA & SGPA Calculator">
+  <meta property="og:description" content="Fast, accurate and free academic calculator for KTU students.">
+  <meta property="og:url" content="https://naveencm3852.github.io/ktu-calculator/">
+  <meta property="og:image" content="https://naveencm3852.github.io/ktu-calculator/icon-512.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>KTU CGPA & SGPA Calculator</title>
+  <link rel="canonical" href="https://naveencm3852.github.io/ktu-calculator/">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <div class="page-noise" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <nav class="navbar shell" aria-label="Primary navigation">
+      <a class="brand" href="#home" aria-label="KTU Calc home">
+        <span class="brand-mark" aria-hidden="true">K</span>
+        <span>KTU<span class="accent-text">Calc</span></span>
+      </a>
+      <button class="menu-toggle icon-button" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a class="active" href="#home">Home</a>
+        <a href="#sgpa">SGPA</a>
+        <a href="#cgpa">CGPA</a>
+        <a href="#goal">Goal</a>
+        <a href="#about">About KTU</a>
+      </div>
+      <div class="nav-actions">
+        <button class="icon-button theme-toggle" type="button" aria-label="Switch to light mode" title="Toggle theme">
+          <span class="sun" aria-hidden="true">☀</span>
+          <span class="moon" aria-hidden="true">☾</span>
+        </button>
+        <button class="button button-small install-button" type="button" hidden>Install App</button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <!-- Hero -->
+    <section class="hero section" id="home">
+      <div class="particles" aria-hidden="true"></div>
+      <div class="shell hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span></span> Built for KTU students</div>
+          <h1>Grades, decoded.<br><span class="gradient-text">Goals, within reach.</span></h1>
+          <p>Fast, accurate and free academic calculators for APJ Abdul Kalam Technological University students.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#sgpa">Calculate SGPA <span aria-hidden="true">→</span></a>
+            <a class="button button-secondary" href="#cgpa">Calculate CGPA</a>
+          </div>
+          <div class="trust-row" aria-label="Product benefits">
+            <span><i>✓</i> No sign-up</span>
+            <span><i>✓</i> Works offline</span>
+            <span><i>✓</i> Data stays private</span>
+          </div>
+        </div>
+        <div class="hero-visual reveal" aria-label="Academic performance dashboard illustration">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="dashboard-card glass">
+            <div class="dashboard-top">
+              <span>Semester progress</span>
+              <span class="live-pill">On track</span>
+            </div>
+            <div class="score-ring" style="--progress: 86">
+              <div><strong>8.62</strong><span>CGPA</span></div>
+            </div>
+            <div class="mini-bars" aria-hidden="true">
+              <span style="--height: 54%"></span><span style="--height: 66%"></span>
+              <span style="--height: 61%"></span><span style="--height: 78%"></span>
+              <span style="--height: 72%"></span><span style="--height: 88%"></span>
+            </div>
+            <div class="dashboard-footer">
+              <div><span>Credits</span><strong>124</strong></div>
+              <div><span>Standing</span><strong>Excellent</strong></div>
+            </div>
+          </div>
+          <div class="float-card float-card-one glass"><span>↑</span><div><strong>+0.34</strong><small>This semester</small></div></div>
+          <div class="float-card float-card-two glass"><span>★</span><div><strong>A+</strong><small>Top grade</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feature highlights -->
+    <section class="features section-sm">
+      <div class="shell">
+        <div class="feature-grid">
+          <article class="feature-card glass reveal"><div class="feature-icon">◎</div><h3>Accurate KTU Logic</h3><p>Credit-weighted calculations using the official KTU grade-point scale.</p></article>
+          <article class="feature-card glass reveal"><div class="feature-icon">◇</div><h3>Mobile Friendly</h3><p>Designed to feel effortless on phones, tablets, and desktops.</p></article>
+          <article class="feature-card glass reveal"><div class="feature-icon">↯</div><h3>Instant Results</h3><p>Results, insights, and breakdowns appear the moment you calculate.</p></article>
+          <article class="feature-card glass reveal"><div class="feature-icon">∞</div><h3>Free Forever</h3><p>No account, no paywall, and no academic data leaves your device.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SGPA Calculator -->
+    <section class="calculator-section section" id="sgpa">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <div><span class="section-kicker">Semester calculator</span><h2>Calculate your <span class="gradient-text">SGPA</span></h2></div>
+          <p>Choose your programme and semester, then assign a grade to each course.</p>
+        </div>
+        <div class="calculator-layout">
+          <div class="calculator-card glass reveal">
+            <div class="form-toolbar">
+              <label class="field"><span>Programme</span>
+                <select id="programme-select">
+                  <option value="CSE">Computer Science & Engineering</option>
+                  <option value="ECE">Electronics & Communication</option>
+                  <option value="EEE">Electrical & Electronics</option>
+                  <option value="ME">Mechanical Engineering</option>
+                  <option value="CE">Civil Engineering</option>
+                </select>
+              </label>
+              <label class="field"><span>Semester</span>
+                <select id="semester-select">
+                  <option value="1">Semester 1</option><option value="2">Semester 2</option>
+                  <option value="3">Semester 3</option><option value="4">Semester 4</option>
+                  <option value="5">Semester 5</option><option value="6">Semester 6</option>
+                  <option value="7">Semester 7</option><option value="8">Semester 8</option>
+                </select>
+              </label>
+            </div>
+            <div class="table-wrap">
+              <table class="subject-table">
+                <thead><tr><th scope="col">Course</th><th scope="col">Credits</th><th scope="col">Grade</th></tr></thead>
+                <tbody id="subject-rows"></tbody>
+              </table>
+            </div>
+            <div class="calculator-actions">
+              <button class="button button-primary" id="calculate-sgpa" type="button">Calculate SGPA</button>
+              <button class="button button-ghost" id="reset-sgpa" type="button">Reset</button>
+            </div>
+            <p class="form-note">2019 scheme course templates. Course names and credits can be edited for electives or other schemes.</p>
+          </div>
+          <aside class="result-card glass result-placeholder reveal" id="sgpa-result" aria-live="polite">
+            <div class="result-empty"><div class="empty-icon">∑</div><h3>Your result will appear here</h3><p>Select grades for your courses and calculate your semester performance.</p></div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- CGPA Calculator -->
+    <section class="calculator-section section" id="cgpa">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <div><span class="section-kicker">Overall performance</span><h2>Calculate your <span class="gradient-text">CGPA</span></h2></div>
+          <p>Enter only the semesters you have completed. Credit totals are editable.</p>
+        </div>
+        <div class="calculator-layout reverse">
+          <div class="calculator-card glass reveal">
+            <div class="semester-inputs" id="semester-inputs"></div>
+            <div class="calculator-actions">
+              <button class="button button-primary" id="calculate-cgpa" type="button">Calculate CGPA</button>
+              <button class="button button-ghost" id="reset-cgpa" type="button">Reset</button>
+            </div>
+          </div>
+          <aside class="result-card glass result-placeholder reveal" id="cgpa-result" aria-live="polite">
+            <div class="result-empty"><div class="empty-icon">◴</div><h3>See the full picture</h3><p>Add your completed semester SGPAs for a weighted cumulative result.</p></div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- Goal Calculator -->
+    <section class="calculator-section section" id="goal">
+      <div class="shell">
+        <div class="section-heading centered reveal">
+          <div><span class="section-kicker">Plan ahead</span><h2>Turn your target into a <span class="gradient-text">plan</span></h2></div>
+          <p>Find the average SGPA you need across your remaining semesters.</p>
+        </div>
+        <div class="goal-card glass reveal">
+          <form id="goal-form" class="goal-form">
+            <label class="field"><span>Current CGPA</span><input id="current-cgpa" type="number" min="0" max="10" step="0.01" placeholder="e.g. 7.80" required></label>
+            <label class="field"><span>Completed semesters</span><input id="completed-semesters" type="number" min="1" max="7" step="1" placeholder="e.g. 4" required></label>
+            <label class="field"><span>Target CGPA</span><input id="target-cgpa" type="number" min="0" max="10" step="0.01" placeholder="e.g. 8.50" required></label>
+            <label class="field"><span>Remaining semesters</span><input id="remaining-semesters" type="number" min="1" max="7" step="1" placeholder="e.g. 4" required></label>
+            <button class="button button-primary" type="submit">Build my plan</button>
+          </form>
+          <div class="goal-result" id="goal-result" aria-live="polite">
+            <div class="goal-visual"><div class="target-orb"><span>Target</span><strong>?</strong></div></div>
+            <div><span class="section-kicker">Your roadmap</span><h3>Ready when you are</h3><p>Enter your current standing and desired CGPA to get a clear, practical target.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Percentage and History -->
+    <section class="utility-section section">
+      <div class="shell utility-grid">
+        <article class="percentage-card glass reveal">
+          <span class="section-kicker">Quick converter</span>
+          <h2>CGPA to Percentage</h2>
+          <p>KTU conversion formula: <strong>(CGPA − 0.75) × 10</strong></p>
+          <label class="field"><span>Enter CGPA</span><input id="percentage-cgpa" type="number" min="0.75" max="10" step="0.01" placeholder="8.50"></label>
+          <div class="percentage-output"><strong id="percentage-result">—</strong><span>Percentage</span></div>
+        </article>
+        <article class="history-card glass reveal">
+          <div class="history-heading"><div><span class="section-kicker">Saved locally</span><h2>Recent calculations</h2></div><button class="text-button" id="clear-history" type="button">Clear all</button></div>
+          <div class="history-list" id="history-list"><p class="empty-history">Your recent results will show up here.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about-section section" id="about">
+      <div class="shell about-grid">
+        <div class="about-copy reveal">
+          <span class="section-kicker">About the university</span>
+          <h2>Made for the <span class="gradient-text">KTU community</span></h2>
+          <p>APJ Abdul Kalam Technological University is Kerala's state technical university, bringing engineering, technology, and management institutions under a shared academic framework.</p>
+          <p>This independent calculator follows KTU's grade-point values and credit-weighted method. Always verify final academic records with official university documents.</p>
+          <a class="button button-secondary" href="https://ktu.edu.in/" target="_blank" rel="noopener noreferrer">Visit official KTU website ↗</a>
+        </div>
+        <div class="formula-card glass reveal">
+          <div class="formula-icon">ƒ</div><span>SGPA formula</span>
+          <strong>Σ (Credit × Grade Point)</strong>
+          <div class="formula-line"></div>
+          <strong>Σ Total Credits</strong>
+          <p>Every course contributes in proportion to its assigned credit.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <div><a class="brand" href="#home"><span class="brand-mark">K</span><span>KTU<span class="accent-text">Calc</span></span></a><p>A private, student-friendly academic planning tool.</p></div>
+      <div class="footer-links"><strong>Calculators</strong><a href="#sgpa">SGPA Calculator</a><a href="#cgpa">CGPA Calculator</a><a href="#goal">Goal Calculator</a></div>
+      <div class="footer-links"><strong>Resources</strong><a href="#about">About KTU</a><a href="https://ktu.edu.in/" target="_blank" rel="noopener">Official Website</a><button class="text-button install-button" type="button" hidden>Install App</button></div>
+    </div>
+    <div class="shell footer-bottom"><span>© <span id="current-year"></span> KTU Calc</span><span>Built for students, with privacy in mind.</span></div>
+  </footer>
+
+  <div class="toast-container" aria-live="polite" aria-atomic="true"></div>
+  <script src="script.js" defer></script>
+</body>
+</html>

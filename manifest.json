@@ -1,0 +1,26 @@
+{
+  "name": "KTU CGPA & SGPA Calculator",
+  "short_name": "KTU Calc",
+  "description": "Fast, private academic calculators for KTU students.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#070b17",
+  "theme_color": "#070b17",
+  "categories": ["education", "utilities"],
+  "icons": [
+    {
+      "src": "icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
